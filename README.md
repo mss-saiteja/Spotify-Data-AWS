@@ -1,5 +1,6 @@
 **Spotify Data Engineering End-to-End Project**
-**Overview
+
+**Overview**
 This project involves building an end-to-end data engineering pipeline on the AWS Cloud platform that processes and analyzes Spotify data. The project covers all key stages from data ingestion and transformation to querying and visualization.
 
 **Project Architecture**
@@ -52,19 +53,19 @@ Steps Covered:
 Creating an IAM role for Glue with S3 access.
 Configuring job resources (Glue version, worker type, etc.).
 Running the Glue job and verifying the output in S3.
-5. **AWS Glue Crawler Setup**
+6. **AWS Glue Crawler Setup**
 Objective: Set up an AWS Glue Crawler to create a data catalog.
 Steps Covered:
 Configuring and running a Glue Crawler to scan the S3 data warehouse.
 Creating a database and tables in Glue.
 Reviewing and editing the table schema.
-6. **Querying Data with AWS Athena**
+7. **Querying Data with AWS Athena**
 Objective: Use AWS Athena to query data stored in S3.
 Steps Covered:
 Setting up AWS Athena and connecting it to the data catalog.
 Running SQL queries to fetch data from the data warehouse.
 Configuring S3 to store query results and viewing query results in Athena.
-7. **Visualizing Data with AWS QuickSight**
+8. **Visualizing Data with AWS QuickSight**
 Objective: Use AWS QuickSight to create visualizations.
 Steps Covered:
 Setting up AWS QuickSight and connecting it to Athena.
