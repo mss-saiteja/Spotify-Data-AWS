@@ -1,4 +1,4 @@
-#**Spotify Data Engineering End-to-End Project**
+# **Spotify Data Engineering End-to-End Project**
 
 **Overview**
 This project involves building an end-to-end data engineering pipeline on the AWS Cloud platform that processes and analyzes Spotify data. The project covers all key stages from data ingestion and transformation to querying and visualization.
