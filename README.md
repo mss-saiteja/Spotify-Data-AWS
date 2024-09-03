@@ -46,9 +46,9 @@ Tracks: Contains track ID, popularity, and explicitness.
  
 
 **Prerequisites**
-AWS Account
-Basic knowledge of AWS services (S3, Glue, Athena, QuickSight)
-Familiarity with SQL and data visualization concepts
+1) AWS Account
+2) Basic knowledge of AWS services (S3, Glue, Athena, QuickSight)
+3) Familiarity with SQL and data visualization concepts
 
 **Conclusion**
 This project provides a comprehensive overview of building a data engineering pipeline on AWS, from data ingestion to visualization. It leverages key AWS services like S3, Glue, Athena, and QuickSight, making it a valuable learning experience for aspiring data engineers.
