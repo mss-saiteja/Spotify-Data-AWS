@@ -31,46 +31,46 @@ Tracks: Contains track ID, popularity, and explicitness.
 
 **Project Steps**
 1. **IAM User Setup**
-Objective: Set up an AWS Identity and Access Management (IAM) user with appropriate permissions.
-Steps Covered:
-Creating an IAM user.
-Assigning necessary permissions for S3, Glue, Athena, and QuickSight.
-Logging in as the IAM user to verify access.
+   Objective: Set up an AWS Identity and Access Management (IAM) user with appropriate permissions.
+  Steps Covered:
+  1) Creating an IAM user.
+  2)Assigning necessary permissions for S3, Glue, Athena, and QuickSight.
+  3)Logging in as the IAM user to verify access.
 2. **S3 Bucket Setup**
-Objective: Set up S3 buckets to store and organize data.
-Steps Covered:
-Creating S3 buckets for the staging layer and data warehouse.
-Uploading preprocessed CSV files to the staging folder.
+   Objective: Set up S3 buckets to store and organize data.
+   Steps Covered:
+  1)Creating S3 buckets for the staging layer and data warehouse.
+  2)Uploading preprocessed CSV files to the staging folder.
 3. **AWS Glue ETL Pipeline**
-Objective: Create a data pipeline using AWS Glue to transfer and transform data.
-Steps Covered:
-Setting up the ETL pipeline using AWS Glue’s visual interface.
-Connecting and transforming datasets (albums, artists, tracks).
-Saving transformed data in the S3 data warehouse folder.
+  Objective: Create a data pipeline using AWS Glue to transfer and transform data.
+  Steps Covered:
+  1)Setting up the ETL pipeline using AWS Glue’s visual interface.
+  2)Connecting and transforming datasets (albums, artists, tracks).
+  3)Saving transformed data in the S3 data warehouse folder.
 4. **Executing the AWS Glue Job**
-Objective: Execute the AWS Glue data pipeline and monitor its performance.
-Steps Covered:
-Creating an IAM role for Glue with S3 access.
-Configuring job resources (Glue version, worker type, etc.).
-Running the Glue job and verifying the output in S3.
-6. **AWS Glue Crawler Setup**
-Objective: Set up an AWS Glue Crawler to create a data catalog.
-Steps Covered:
-Configuring and running a Glue Crawler to scan the S3 data warehouse.
-Creating a database and tables in Glue.
-Reviewing and editing the table schema.
-7. **Querying Data with AWS Athena**
-Objective: Use AWS Athena to query data stored in S3.
-Steps Covered:
-Setting up AWS Athena and connecting it to the data catalog.
-Running SQL queries to fetch data from the data warehouse.
-Configuring S3 to store query results and viewing query results in Athena.
-8. **Visualizing Data with AWS QuickSight**
-Objective: Use AWS QuickSight to create visualizations.
-Steps Covered:
-Setting up AWS QuickSight and connecting it to Athena.
-Creating data visualizations using the Spotify dataset.
-Publishing visualizations to share insights.
+  Objective: Execute the AWS Glue data pipeline and monitor its performance.
+  Steps Covered:
+  1)Creating an IAM role for Glue with S3 access.
+  2)Configuring job resources (Glue version, worker type, etc.).
+  3)Running the Glue job and verifying the output in S3.
+5. **AWS Glue Crawler Setup**
+   Objective: Set up an AWS Glue Crawler to create a data catalog.
+   Steps Covered:
+  1)Configuring and running a Glue Crawler to scan the S3 data warehouse.
+  2)Creating a database and tables in Glue.
+  3)Reviewing and editing the table schema.
+6. **Querying Data with AWS Athena**
+   Objective: Use AWS Athena to query data stored in S3.
+   Steps Covered:
+  1)Setting up AWS Athena and connecting it to the data catalog.
+  2)Running SQL queries to fetch data from the data warehouse.
+  3)Configuring S3 to store query results and viewing query results in Athena.
+7. **Visualizing Data with AWS QuickSight**
+   Objective: Use AWS QuickSight to create visualizations.
+   Steps Covered:
+  1)Setting up AWS QuickSight and connecting it to Athena.
+  2)Creating data visualizations using the Spotify dataset.
+  3)Publishing visualizations to share insights.
 
 **Prerequisites**
 AWS Account
