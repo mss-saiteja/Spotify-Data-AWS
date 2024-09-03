@@ -5,19 +5,19 @@
 
 ## Project Architecture
 
-**Staging Layer**
+- **Staging Layer**
 • Data is initially stored in a staging layer on Amazon S3.
 
-**ETL Pipeline (AWS Glue)**
+- **ETL Pipeline (AWS Glue)**
 • AWS Glue is used to build an ETL pipeline that extracts data from the staging layer, transforms it, and loads it into a data warehouse.
 
-**Data Warehouse**
+- **Data Warehouse**
 • Processed data is stored in a data warehouse on S3.
 
-**AWS Glue Crawler**
+- **AWS Glue Crawler**
 • A Glue Crawler is used to create a database and populate tables in the data warehouse.
 
-**Data Querying (AWS Athena)**
+- **Data Querying (AWS Athena)**
 • AWS Athena is used to query data from the tables created by the Glue Crawler.
 
 ## Dataset Description
